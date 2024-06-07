@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Feedback</title>
+<link rel="stylesheet" type="text/css" href="feedback.css">
+</head>
+<body>
+<h1>Customer Feedback</h1>
+<form id="feedbackForm">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <span id="nameError" class="error"></span>
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <span id="emailError" class="error"></span>
+  </div>
+  <div>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+    <span id="phoneError" class="error"></span>
+  </div>
+  <div>
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" required></textarea>
+    <span id="commentsError" class="error"></span>
+  </div>
+  <button type="button" onclick="validateForm()">Submit</button>
+</form>
+
+<h2>Existing Customers:</h2>
+<ul id="customerList">
+  <!-- Existing customers will be added here -->
+</ul>
+
+<script src="feedback.js"></script>
+</body>
+</html>

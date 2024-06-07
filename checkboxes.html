@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACCENT COLOR PROPERTY</title >
+    <link rel="stylesheet" href="checkboxes.css">
+</head>
+<body>
+    <label  for="checkboxes">checkboxes</label>
+    <br>
+
+    <input type="checkbox" > I have a bike<br>
+
+    <input type="checkbox" > I have a car<br>
+    <label  for="radio">Radiobuttons</label>
+    <br>
+
+      <input type="radio">HTML<br>
+    <input  type="radio">CSS<br>
+    <label  for="range">Select a value:</label>
+    <br>
+    <input type="range" id="range" name ="range" min ="0", max="100" steps="5">
+<br>
+
+
+    <label for="date">Select a date:</label>
+    <input type="date" id="date " name ="date"><br>
+    <label for="time">Select a time:</label>
+    <input type="item" id="item " name ="item"><br>
+    <input type="date" id="date " name ="date"><br>
+    <input type="date" id="date " name ="date" min="2021-01-01" max="2022-12-31"><br>
+    <label for="time">Select a time:</label>
+    <input type="time " id ="time" name="time " steps="900"> <br>
+    <label for="month">select a month </label>
+    <input type ="month" id ="month" name ="month"><br>
+    <label  for="week " >select a week</label>
+      <input type ="week" id ="week" name ="week"><br>
+    <label for="color">select a color</label>
+    <input type="color" id ="color" name="color">
+    <label for="search">Search for something</label>
+ <input type ="search "id ="search " name ="search">
+
+
+
+
+
+ <br>
+
+ 
+ <fieldset>
+    <legend>Contact Information</legend>
+    <label for="name">Name:</label>
+    <input type="text " id ="name " name ="name"><br><br>
+    <label for ="email">Email:</label>
+    <input type ="email " id ="name"  name="name"><br><br>
+    <label for="phone">phone:</label>
+    <input type="tel " id="phone" name ="phone"><br><br>
+<br>
+
+
+  <fieldset id="box">
+  
+ <legend id="login">login</legend>
+ <label for="name">Name:</label>
+ <input type="text " id ="name " name ="name" disabled><br><br>
+ <label for ="email">Email:</label>
+ <input type ="email id" id ="name"  name="name" readonly><br><br>
+  </fieldset>
+
+  <br>
+  <br>
+  <form action="/submit-form" method="post">SIGN-UP<BR>
+    <input type="hidden" name="csrf_token" value="abcd1234">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <label  for="password">Password:</label>
+<input type="password" id="password" name="password" required>
+<button type="Submit">Submit</button>
+
+</form>
+
+<select name="city" id="city">
+  <option value="Delhi">Delhi</option>
+  <option value="mumbai">Mumbai</option>
+<option value="Banglore">Banglore</option>
+</select>
+</body>
+</html>
+
+ 
+

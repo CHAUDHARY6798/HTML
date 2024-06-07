@@ -1,0 +1,30 @@
+input{
+    accent-color: blue;
+}
+
+fieldset{
+    color: black;
+    background-color: cornflowerblue;
+    /* align-items: center; */
+    display: inline-block;
+    justify-content:center ;
+}
+legend{
+    /* align-items: center; */
+    justify-content: center;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+fieldset #box{
+    background-color:pink ;
+    margin:0;
+
+}
+form {
+    background-color: darksalmon;
+    display: inline-block;
+    padding:10px 15px;
+    font-weight: 600;
+    
+}
